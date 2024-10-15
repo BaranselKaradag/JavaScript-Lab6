@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Counter</title>
+</head>
+<body>
+    <h2>Counter Example</h2>
+    <div id="display">Count: 0</div>
+    <button onclick="increment()">Increase Count</button>
+
+    <script>
+        let count = 0;
+        function increment() {
+            count++;
+            document.getElementById('display').innerHTML = "Count: " + count;
+        }
+    </script>
+</body>
+</html>
